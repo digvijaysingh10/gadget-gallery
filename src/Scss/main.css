@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Sora", sans-serif;
+  background: #fff !important;
+  color: #000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+.activeButton {
+  border-bottom: 2px solid #000 !important;
+}
+
+.bannerlanding {
+  padding: 80px 0 0px;
+  overflow: hidden;
+}
+
+.topbarmainBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0 !important;
+  width: 100%;
+}
+
+.displayCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.displayStart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.displayEnd {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.displaySpacebetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.displaySpacearound {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.displayAlign {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  width: 90px !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px rgba(35, 35, 35, 0);
+}/*# sourceMappingURL=main.css.map */
